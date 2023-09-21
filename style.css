@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
 /* Top section starts here */
 
 .top-section {
@@ -78,6 +82,7 @@ div button {
 .second-section{
     font-family: Tahoma, Verdana, sans-serif;
     padding: 0 120px;
+    margin-bottom: -60px;
 }
 
 h2 {
@@ -99,7 +104,7 @@ h2 {
 .container img {
     width: 200px;
     height: 200px;
-    border: 5px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 20px;
     flex-shrink: 0;
 }
@@ -115,4 +120,66 @@ h2 {
 }
 /* Second section ends here */
 
+/* Third section starts here */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 100px 300px;
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: "Times New Roman", sans-serif;
+}
 
+.third-section p {
+    margin: 0;
+}
+
+.quote {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: -35px;
+}
+/* Third section ends here */
+
+/* Fourth section begins here */
+.fourth-section{
+    padding: 50px 120px;
+    margin: 0;
+    
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    border-radius: 10px;
+    padding: 48px;
+}
+
+.call p{
+    display: flex;
+    font-weight: bold;
+    font-size: 23px;
+    color: #e5e7eb;
+}
+
+#smaller {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.fourth-section button {
+    outline: 2px solid #e5e7eb;
+    box-shadow: none;
+}
+
+footer {
+    background: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
+}
