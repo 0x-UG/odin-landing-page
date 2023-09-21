@@ -1,3 +1,5 @@
+/* Top section starts here */
+
 .top-section {
     background: #1f2937;
     font-family: Tahoma, Verdana, sans-serif;
@@ -8,10 +10,10 @@
     padding: 0 120px;
 }
 
-h1 {
-    font-size: 24px;
-    color: #f9faf8;
-    align-items: center;
+.page-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
 }
 
 .header-links {
@@ -30,22 +32,26 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 50px 120px;
+    flex-wrap: wrap;
 }
 #first-image {
     width: 450px;
     height: 250px;
+    flex-shrink: 0;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    
+    flex-wrap: wrap;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    width: 400px;
     margin: 0;
 }
 
@@ -62,7 +68,51 @@ div button {
     margin-top: -22px;
     width: 120px;
     height: 32px;
-    border-radius: 12px;
+    border-radius: 7px;
     outline: none;
     box-shadow: none;
 }
+/* Top section ends here */
+
+/* Second section starts here */
+.second-section{
+    font-family: Tahoma, Verdana, sans-serif;
+    padding: 0 120px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.info-text p {
+    width: 200px;
+    height: 200px;
+}
+/* Second section ends here */
+
+
